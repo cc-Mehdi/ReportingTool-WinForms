@@ -46,6 +46,7 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.Green;
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
             this.btnSubmit.Location = new System.Drawing.Point(430, 217);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(142, 32);
@@ -174,6 +175,7 @@
             this.Name = "frmAddOrEditProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add Product";
+            this.Load += new System.EventHandler(this.frmAddOrEditProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numQuantityInStock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrice)).EndInit();
             this.ResumeLayout(false);
