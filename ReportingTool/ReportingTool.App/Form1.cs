@@ -74,5 +74,13 @@ namespace ReportingTool.App
         {
             BindGrid();
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if(txtSearch.Text != "")
+            {
+               // dgvProducts.DataSource = _unitOfWork.Product.GetAll(u=> u.ProductName.Contain(txtSearch.Text) || u.Price.Contain(txtSearch.Text));
+            }
+        }
     }
 }
