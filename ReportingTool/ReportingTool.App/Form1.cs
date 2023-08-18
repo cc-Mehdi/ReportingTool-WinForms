@@ -24,5 +24,20 @@ namespace ReportingTool.App
             dgvProducts.DataSource = _unitOfWork.Product.GetAll();
             txtSearch.Text = "";
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            frmAddOrEditProduct frm = new frmAddOrEditProduct(_unitOfWork);
+            if (frm.ShowDialog() == DialogResult.OK)
+                BindGrid();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            frmAddOrEditProduct frm = new frmAddOrEditProduct(_unitOfWork);
+            frm.productId = Convert.ToInt32(dgvProducts.CurrentRow.Cells[0].Value.ToString());
+            if (frm.ShowDialog() == DialogResult.OK)
+                BindGrid();
+        }
     }
 }
