@@ -51,7 +51,7 @@ namespace ReportingTool.App
                 //create product model
                 Product product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId);
 
-                if(MessageBox.Show($"Are you sure for delete '{product.ProductName}' ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                if (MessageBox.Show($"Are you sure for delete '{product.ProductName}' ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     //do remove
                     _unitOfWork.Product.Remove(product);
@@ -77,10 +77,7 @@ namespace ReportingTool.App
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            if(txtSearch.Text != "")
-            {
-               // dgvProducts.DataSource = _unitOfWork.Product.GetAll(u=> u.ProductName.Contain(txtSearch.Text) || u.Price.Contain(txtSearch.Text);
-            }
+            dgvProducts.DataSource = _unitOfWork.Product.GetAll(u => u.ProductName.Contains(txtSearch.Text) || u.Price.ToString() == txtSearch.Text);
         }
     }
 }
