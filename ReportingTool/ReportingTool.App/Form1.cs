@@ -1,4 +1,5 @@
-﻿using ReportingTool.Data.Repository.IRepository;
+﻿using ReportingTool.Data;
+using ReportingTool.Data.Repository.IRepository;
 using System;
 using System.Windows.Forms;
 
@@ -38,6 +39,35 @@ namespace ReportingTool.App
             frm.productId = Convert.ToInt32(dgvProducts.CurrentRow.Cells[0].Value.ToString());
             if (frm.ShowDialog() == DialogResult.OK)
                 BindGrid();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgvProducts.CurrentRow.Cells[0].Value.ToString() != "0")
+            {
+                //get product id
+                int productId = int.Parse(dgvProducts.CurrentRow.Cells[0].Value.ToString());
+
+                //create product model
+                Product product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId);
+
+                if(MessageBox.Show($"Are you sure for delete '{product.ProductName}' ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                {
+                    //do remove
+                    _unitOfWork.Product.Remove(product);
+
+                    //save database
+                    _unitOfWork.Save();
+
+                    //success message
+                    MessageBox.Show("Update Product Completed!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    //refresh process
+                    BindGrid();
+                }
+            }
+            else
+                MessageBox.Show("Please select a record!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
