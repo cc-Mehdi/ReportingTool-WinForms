@@ -122,7 +122,6 @@
             // 
             // numQuantityInStock
             // 
-            this.numQuantityInStock.DecimalPlaces = 2;
             this.numQuantityInStock.Location = new System.Drawing.Point(199, 111);
             this.numQuantityInStock.Maximum = new decimal(new int[] {
             999999,
