@@ -53,6 +53,7 @@
             this.btnSubmit.TabIndex = 0;
             this.btnSubmit.Text = "Add";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnBack
             // 
@@ -64,6 +65,7 @@
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // lblAddOrEditProduct
             // 
