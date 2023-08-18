@@ -1,6 +1,7 @@
 ﻿using ReportingTool.Data;
 using ReportingTool.Data.Repository.IRepository;
 using System;
+using System.Data;
 using System.Windows.Forms;
 
 namespace ReportingTool.App
@@ -78,6 +79,28 @@ namespace ReportingTool.App
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             dgvProducts.DataSource = _unitOfWork.Product.GetAll(u => u.ProductName.Contains(txtSearch.Text) || u.Price.ToString() == txtSearch.Text);
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DataTable dtPrint = new DataTable();
+
+            //create columns
+            dtPrint.Columns.Add("Id");
+            dtPrint.Columns.Add("Product Name");
+            dtPrint.Columns.Add("Quantity In Stock");
+            dtPrint.Columns.Add("Price");
+
+            //move records from data grid view to data table
+            foreach (DataGridViewRow item in dgvProducts.Rows)
+            {
+                //get each records
+                dtPrint.Rows.Add(
+                    item.Cells[0].Value.ToString(),
+                    item.Cells[1].Value.ToString(),
+                    item.Cells[2].Value.ToString(),
+                    item.Cells[3].Value.ToString());
+            }
         }
     }
 }
