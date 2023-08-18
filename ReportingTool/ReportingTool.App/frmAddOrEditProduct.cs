@@ -9,6 +9,7 @@ namespace ReportingTool.App
     public partial class frmAddOrEditProduct : Form
     {
         public int productId = 0;
+        Product product = new Product();
         private readonly IUnitOfWork _unitOfWork;
 
         public frmAddOrEditProduct(IUnitOfWork unitOfWork)
@@ -21,13 +22,22 @@ namespace ReportingTool.App
         {
             if (productId != 0)
             {
+                //some config if edit button was clicked
                 lblAddOrEditProduct.Text = "Edit Product";
                 btnSubmit.Text = "Update";
                 btnSubmit.BackColor = Color.Gold;
                 btnSubmit.ForeColor = Color.Black;
+
+                //get selected product with id
+                product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId);
+
+                txtProductName.Text = product.ProductName;
+                numQuantityInStock.Value = product.QuantityInStock;
+                numPrice.Value = product.Price;
             }
             else
             {
+                //some config if add button was clicked
                 lblAddOrEditProduct.Text = "Add Product";
                 btnSubmit.Text = "Add";
                 btnSubmit.BackColor = Color.Green;
@@ -67,9 +77,6 @@ namespace ReportingTool.App
                 {
                     //edit product
 
-                    //get product with id for edit
-                    var product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == productId);
-
                     //change rew product value with old product
                     product.ProductName = txtProductName.Text;
                     product.QuantityInStock = Convert.ToInt32(numQuantityInStock.Value);
@@ -81,6 +88,9 @@ namespace ReportingTool.App
                     //Success message
                     MessageBox.Show("Update Product Completed!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+
+                //send ok status to main form
+                DialogResult = DialogResult.OK;
 
                 //save database
                 _unitOfWork.Save();

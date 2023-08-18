@@ -122,6 +122,7 @@
             // 
             // numQuantityInStock
             // 
+            this.numQuantityInStock.DecimalPlaces = 2;
             this.numQuantityInStock.Location = new System.Drawing.Point(199, 111);
             this.numQuantityInStock.Maximum = new decimal(new int[] {
             999999,
@@ -136,6 +137,7 @@
             this.numQuantityInStock.Name = "numQuantityInStock";
             this.numQuantityInStock.Size = new System.Drawing.Size(373, 27);
             this.numQuantityInStock.TabIndex = 8;
+            this.numQuantityInStock.ThousandsSeparator = true;
             this.numQuantityInStock.Value = new decimal(new int[] {
             1,
             0,
@@ -144,6 +146,7 @@
             // 
             // numPrice
             // 
+            this.numPrice.DecimalPlaces = 2;
             this.numPrice.Location = new System.Drawing.Point(199, 167);
             this.numPrice.Maximum = new decimal(new int[] {
             999999999,
@@ -153,6 +156,7 @@
             this.numPrice.Name = "numPrice";
             this.numPrice.Size = new System.Drawing.Size(373, 27);
             this.numPrice.TabIndex = 9;
+            this.numPrice.ThousandsSeparator = true;
             // 
             // frmAddOrEditProduct
             // 
