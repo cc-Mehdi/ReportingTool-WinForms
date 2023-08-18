@@ -74,6 +74,7 @@
     <Compile Include="Repository\IRepository\IUnitOfWork.cs" />
     <Compile Include="Repository\ProductRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="MyModel.edmx">
