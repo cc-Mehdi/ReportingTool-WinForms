@@ -15,3 +15,5 @@ C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTo
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\ReportingTool.Data.dll.config
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\EntityFramework.xml
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.csproj.CopyComplete
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ReportingTool.Data.Repository;
+using ReportingTool.Data.Repository.IRepository;
+using ReportingTool.Data;
+using System;
 using System.Windows.Forms;
 
 namespace ReportingTool.App
@@ -16,7 +16,8 @@ namespace ReportingTool.App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            IUnitOfWork _unitOfWork = new UnitOfWork(new ReportingTool_DbEntities());
+            Application.Run(new Form1(_unitOfWork));
         }
     }
 }

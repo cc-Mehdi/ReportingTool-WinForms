@@ -9,10 +9,10 @@ namespace ReportingTool.Data.Repository
         public UnitOfWork(ReportingTool_DbEntities db)
         {
             _db = db;
-            productRepository = new ProductRepository(_db);
+            Product = new ProductRepository(_db);
         }
 
-        public IProductRepository productRepository { get; private set; }
+        public IProductRepository Product { get; private set; }
 
         public void Dispose()
         {

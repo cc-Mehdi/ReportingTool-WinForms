@@ -4,7 +4,7 @@ namespace ReportingTool.Data.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-        IProductRepository productRepository { get; }
+        IProductRepository Product { get; }
         void Save();
     }
 }
