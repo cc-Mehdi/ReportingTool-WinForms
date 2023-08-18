@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +85,24 @@
       <Project>{e9ace4c8-80d6-4146-a608-761d8618cf8c}</Project>
       <Name>ReportingTool.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_web_search_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sync_500px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
