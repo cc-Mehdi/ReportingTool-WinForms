@@ -79,7 +79,7 @@ namespace ReportingTool.App
         {
             if(txtSearch.Text != "")
             {
-               // dgvProducts.DataSource = _unitOfWork.Product.GetAll(u=> u.ProductName.Contain(txtSearch.Text) || u.Price.Contain(txtSearch.Text));
+               // dgvProducts.DataSource = _unitOfWork.Product.GetAll(u=> u.ProductName.Contain(txtSearch.Text) || u.Price.Contain(txtSearch.Text);
             }
         }
     }

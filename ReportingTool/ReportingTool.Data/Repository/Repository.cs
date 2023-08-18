@@ -23,9 +23,11 @@ namespace ReportingTool.Data.Repository
             _dbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null)
         {
             IQueryable<T> query = _dbSet;
+            if (filter != null)
+                query = query.Where(filter);
             return query.ToList();
         }
 
