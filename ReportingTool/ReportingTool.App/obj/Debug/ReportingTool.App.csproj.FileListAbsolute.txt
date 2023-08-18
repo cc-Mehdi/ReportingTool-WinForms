@@ -22,3 +22,8 @@ C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTo
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Report.dll
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Base.xml
 C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Report.xml
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Report.Win.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Controls.Win.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Controls.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Controls.Win.xml
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Stimulsoft.Controls.xml

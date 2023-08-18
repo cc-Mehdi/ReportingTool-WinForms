@@ -101,6 +101,13 @@ namespace ReportingTool.App
                     item.Cells[2].Value.ToString(),
                     item.Cells[3].Value.ToString());
             }
+            
+            //send report page to stiPrint
+            stiPrint.Load(Application.StartupPath + "/Report.mrt");
+            //send database records to report page
+            stiPrint.RegData("DT", dtPrint);
+            //show report page
+            stiPrint.Show();
         }
     }
 }
