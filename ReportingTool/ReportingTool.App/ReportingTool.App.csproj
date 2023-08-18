@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReportingTool.Data\ReportingTool.Data.csproj">
+      <Project>{e9ace4c8-80d6-4146-a608-761d8618cf8c}</Project>
+      <Name>ReportingTool.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
