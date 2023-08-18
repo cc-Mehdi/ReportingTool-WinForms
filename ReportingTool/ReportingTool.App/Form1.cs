@@ -69,5 +69,10 @@ namespace ReportingTool.App
             else
                 MessageBox.Show("Please select a record!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            BindGrid();
+        }
     }
 }
