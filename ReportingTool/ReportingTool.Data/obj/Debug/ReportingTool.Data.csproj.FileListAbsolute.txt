@@ -1,0 +1,6 @@
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\bin\Debug\ReportingTool.Data.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\bin\Debug\ReportingTool.Data.pdb
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\obj\Debug\ReportingTool.Data.csproj.AssemblyReference.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\obj\Debug\ReportingTool.Data.csproj.CoreCompileInputs.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\obj\Debug\ReportingTool.Data.dll
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.Data\obj\Debug\ReportingTool.Data.pdb
