@@ -1,0 +1,10 @@
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\ReportingTool.App.exe.config
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\ReportingTool.App.exe
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\ReportingTool.App.pdb
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.csproj.AssemblyReference.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.csproj.SuggestedBindingRedirects.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.Properties.Resources.resources
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.csproj.GenerateResource.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.csproj.CoreCompileInputs.cache
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.exe
+C:\Users\xmehd\OneDrive\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\obj\Debug\ReportingTool.App.pdb
