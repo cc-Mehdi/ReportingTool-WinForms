@@ -2,9 +2,9 @@
 
 # Reporting Tool
 
-### The "Database Management and Reporting Tool" is a user-friendly Windows application designed to efficiently manage and manipulate data stored in a SQL Server database while offering seamless report generation capabilities. With a focus on simplicity and functionality, this application provides a valuable resource for businesses and individuals looking to streamline their data management processes.
+### The "Database Management and Reporting Tool" is a user-friendly Windows application designed to efficiently manage and manipulate data stored in a SQL Server database while offering report generation capabilities. With a focus on simplicity and functionality, this application provides a valuable resource for businesses and individuals looking to streamline their data management processes.
 
-### "مدیریت پایگاه داده و ابزار گزارش" یک برنامه کاربردی ویندوز کاربر پسند است که برای مدیریت و دستکاری کارآمد داده های ذخیره شده در پایگاه داده SQL Server و در عین حال ارائه قابلیت های تولید گزارش یکپارچه طراحی شده است. این نرم افزار با تمرکز بر سادگی و عملکرد، منبع ارزشمندی را برای مشاغل و افرادی که به دنبال ساده سازی فرآیندهای مدیریت داده خود هستند، فراهم می کند.
+### "مدیریت پایگاه داده و ابزار گزارش" یک برنامه کاربردی ویندوز کاربر پسند است که برای مدیریت و دستکاری کارآمد داده های ذخیره شده در پایگاه داده SQL Server و در عین حال ارائه قابلیت های تولید گزارش طراحی شده است. این نرم افزار با تمرکز بر سادگی و عملکرد، منبع ارزشمندی را برای مشاغل و افرادی که به دنبال ساده سازی فرآیندهای مدیریت داده خود هستند، فراهم می کند.
 
 
 
@@ -17,8 +17,6 @@
 
   
 ## نرم‎‌‎‌افزار
-![image](https://github.com/cc-Mehdi/Library-WPF-/assets/57840939/3611e7b9-2fa8-4af3-8c52-09059722f004)
-![image](https://github.com/cc-Mehdi/Library-WPF-/assets/57840939/3704862d-c33d-4c54-b884-0b6a93eddb46)
 
 
 ## تکنولوژی‌ها
