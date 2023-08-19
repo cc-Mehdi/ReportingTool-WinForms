@@ -35,6 +35,7 @@
 
 ## امکانات
 * استفاده از Clean Code
+* Repository algorithm
 * EntityFramework
 
 
