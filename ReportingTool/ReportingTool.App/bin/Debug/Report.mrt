@@ -65,75 +65,137 @@
           <Page isRef="3" />
           <Parent isRef="3" />
         </HeaderBand1>
-        <DataDT Ref="7" type="DataBand" isKey="true">
+        <HeaderDT Ref="7" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
-          <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,2.2,7.72,0.3</ClientRectangle>
           <Components isList="true" count="4">
-            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0 Ref="8" type="Text" isKey="true">
+            <HeaderDT_Id Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.9,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDT_Id</Name>
+              <Page isRef="3" />
+              <Parent isRef="7" />
+              <Text>Id</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDT_Id>
+            <HeaderDT_Product_Name Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.9,0,1.9,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDT_Product_Name</Name>
+              <Page isRef="3" />
+              <Parent isRef="7" />
+              <Text>Product Name</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDT_Product_Name>
+            <HeaderDT_Quantity_In_Stock Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0,1.9,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDT_Quantity_In_Stock</Name>
+              <Page isRef="3" />
+              <Parent isRef="7" />
+              <Text>Quantity In Stock</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDT_Quantity_In_Stock>
+            <HeaderDT_Price Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0,2,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderDT_Price</Name>
+              <Page isRef="3" />
+              <Parent isRef="7" />
+              <Text>Price</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderDT_Price>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderDT</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderDT>
+        <DataDT Ref="12" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,2.9,7.72,0.3</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataDT_Id Ref="13" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0,1.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
-              <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0</Name>
+              <Name>DataDT_Id</Name>
               <Page isRef="3" />
-              <Parent isRef="7" />
+              <Parent isRef="12" />
               <Text>{DT.Id}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
-            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0>
-            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02 Ref="9" type="Text" isKey="true">
+            </DataDT_Id>
+            <DataDT_Product_Name Ref="14" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>1.9,0,1.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
-              <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02</Name>
+              <Name>DataDT_Product_Name</Name>
               <Page isRef="3" />
-              <Parent isRef="7" />
+              <Parent isRef="12" />
               <Text>{DT.Product_Name}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
-            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02>
-            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03 Ref="10" type="Text" isKey="true">
+            </DataDT_Product_Name>
+            <DataDT_Quantity_In_Stock Ref="15" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>3.8,0,1.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
-              <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03</Name>
+              <Name>DataDT_Quantity_In_Stock</Name>
               <Page isRef="3" />
-              <Parent isRef="7" />
+              <Parent isRef="12" />
               <Text>{DT.Quantity_In_Stock}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
-            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03>
-            <DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04 Ref="11" type="Text" isKey="true">
+            </DataDT_Quantity_In_Stock>
+            <DataDT_Price Ref="16" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>5.7,0,2,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
-              <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <Name>DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04</Name>
+              <Name>DataDT_Price</Name>
               <Page isRef="3" />
-              <Parent isRef="7" />
+              <Parent isRef="12" />
               <Text>{DT.Price}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
               <VertAlignment>Center</VertAlignment>
-            </DataStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04>
+            </DataDT_Price>
           </Components>
           <Conditions isList="true" count="0" />
           <DataSourceName>DT</DataSourceName>
@@ -143,76 +205,6 @@
           <Parent isRef="3" />
           <Sort isList="true" count="0" />
         </DataDT>
-        <HeaderDT Ref="12" type="HeaderBand" isKey="true">
-          <Brush>Transparent</Brush>
-          <ClientRectangle>0,2.9,7.72,0.3</ClientRectangle>
-          <Components isList="true" count="4">
-            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0 Ref="13" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,0,1.9,0.3</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Arial,10,Bold</Font>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0</Name>
-              <Page isRef="3" />
-              <Parent isRef="12" />
-              <Text>Id</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_0>
-            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02 Ref="14" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>1.9,0,1.9,0.3</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Arial,10,Bold</Font>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02</Name>
-              <Page isRef="3" />
-              <Parent isRef="12" />
-              <Text>Product Name</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_02>
-            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03 Ref="15" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>3.8,0,1.9,0.3</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Arial,10,Bold</Font>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03</Name>
-              <Page isRef="3" />
-              <Parent isRef="12" />
-              <Text>Quantity In Stock</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_03>
-            <HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04 Ref="16" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>5.7,0,2,0.3</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Arial,10,Bold</Font>
-              <HorAlignment>Center</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04</Name>
-              <Page isRef="3" />
-              <Parent isRef="12" />
-              <Text>Price</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
-              <VertAlignment>Center</VertAlignment>
-            </HeaderStimulsoft_Report_Wpf_NodeTreeViewItem_Header__Items_Count_04>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <Name>HeaderDT</Name>
-          <Page isRef="3" />
-          <Parent isRef="3" />
-        </HeaderDT>
       </Components>
       <Conditions isList="true" count="0" />
       <Guid>33cb23616a7a443cacf151c282ccb301</Guid>
@@ -240,10 +232,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>8/18/2023 11:38:02 PM</ReportChanged>
+  <ReportChanged>8/20/2023 9:54:51 AM</ReportChanged>
   <ReportCreated>8/18/2023 11:34:32 PM</ReportCreated>
-  <ReportFile />
-  <ReportGuid>f46abbc5dd40414791e986e08f2de3f2</ReportGuid>
+  <ReportFile>C:\Users\cc-Mehdi\Desktop\ReportingTool-WinForms\ReportingTool\ReportingTool.App\bin\Debug\Report.mrt</ReportFile>
+  <ReportGuid>aa348bb136fb4dde8aa346b4e54a2615</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2014.3.0</ReportVersion>
@@ -266,7 +258,7 @@ namespace Reports
         }
 
         #region StiReport Designer generated code - do not modify
-        #endregion StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
     }
 }
 </Script>
